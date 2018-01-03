@@ -1,0 +1,12 @@
+[package]
+name = "rlua-table-derive"
+version = "0.1.0"
+authors = ["zack <zwparchman@gmail.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "*"
+quote = "*"
+rlua = "*"
