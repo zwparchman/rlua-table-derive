@@ -2,3 +2,4 @@
 **/*.rs.bk
 *.swp
 perf.data*
+example/target/

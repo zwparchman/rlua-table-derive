@@ -3,10 +3,19 @@ name = "rlua-table-derive"
 version = "0.1.0"
 authors = ["zack <zwparchman@gmail.com>"]
 
+description = "This crate provides a procedural macro to turn lua tables into rust types via rlua"
+repository = "https://github.com/zwparchman/rlua-table-derive"
+readme = "README.md"
+keywords = ["derive", "rlua"]
+
+categories = ["external-ffi-bindings"]
+
+license = "MIT"
+
 [lib]
 proc-macro = true
 
 [dependencies]
-syn = "*"
-quote = "*"
-rlua = "*"
+syn = "0.11.0"
+quote = "0.3.*"
+rlua = "0.10.*"
