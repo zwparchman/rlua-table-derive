@@ -1,0 +1,8 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["zack <zwparchman@gmail.com>"]
+
+[dependencies]
+rlua-table-derive = { path = "../" }
+rlua = "*"
